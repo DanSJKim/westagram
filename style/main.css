@@ -1,0 +1,318 @@
+.header-nav {
+    width: 975px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.header {
+    width:100%;
+    height: 77px;
+    display:flex;
+    background: #FFFFFF;
+    justify-content: center;
+    border-bottom: 1px solid #e6e6e6;
+    position: fixed;
+    top: 0;
+}
+
+
+/* 공통 계정 텍스트 */
+.account-name {
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+/* 공통 위아래 계정 이름 배치 */
+.account-name-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+    
+}
+
+/* 왼쪽 상단 네비게이션 그룹 */
+.left-nav-group {
+    display: flex;
+    align-items: center;
+}
+
+/* 게시물, 추천 목록 프사 */
+.profile-32px {
+    width: 32px;
+    height: 32px;
+}
+
+
+.icon-resize {
+    width: 24px;
+    height: 24px;
+}
+
+.left-logo {
+    width: 103px;
+    height: 29px;
+}
+
+.left-logo-wrapper {
+    margin-top: 13px;
+}
+
+
+.left-pole {
+    height: 28px;
+    margin: 0 16px;
+    width: 1px;
+    background: #262626;
+}
+
+
+/* 오른쪽 상단 네비게이션 그룹 */
+
+.right-nav-group {
+    width: 156px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+}
+
+.input-search {
+    width: 215px;
+    height: 28px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    text-align: center;
+    background: #FAFAFA;
+}
+
+.input-search::placeholder {
+    
+    
+}
+
+/* 전체 레이아웃 */
+
+main {
+    width: 975px;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 74px;
+}
+
+.feeds {
+    width: 616px;
+    height: inherit;
+    margin-right: 28px;
+}
+
+article {
+    width: 616px;
+    height: 851px;
+    margin-top: 60px;
+}
+
+.main-right {
+    width: 293px;
+    height: 593px;
+    padding-top: 60px;
+    
+    right: 350px;
+    position: fixed;
+}
+
+
+/* 오른쪽 내 프로필 */
+.right-top {
+    display: flex;
+    width: 293px;
+    height: 50px;
+    padding-left: 5px;
+    margin-bottom: 12px;
+}
+
+.sub-account-name {
+    font-size: 12px;
+    color: #999999;
+}
+
+/* 오른쪽 스토리 목록 */
+.right-story {
+    width: 291px;
+    height: 223px;
+    margin-top: 4px;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.right-story-inner {
+    margin-top: 8px;
+    height:182px;
+    overflow: hidden;
+}
+
+.right-profile-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* 오른쪽 스토리 헤더 */
+.right-header {
+    display: flex;
+    width: 100%;
+    height: 19px;
+    margin-top: 12px;
+    padding: 4px 16px;
+    justify-content: space-between;
+}
+
+.right-header-all-view {
+    font-size: 12px;
+    margin: -2px 0 -3px 0;
+    font-weight: 600;
+    color: #262626;
+}
+
+/* 오른쪽 컨텐츠 목록 */
+
+.right-story-content {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin-left: 16px;
+}
+
+.right-story-item {
+    width: 275px;
+    height: 52px;
+
+}
+
+.right-story-item-btn {
+    width: 275px;
+    padding: 1px 7px 2px 5px;
+    height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    border: 0px;
+}
+
+.right-story-item-img {
+    width: 34px;
+    height: 34px;
+}
+
+.right-story-item-canvas {
+
+}
+
+.right-story-item-ago {
+    font-size: 10px;
+    color: rgb(153,153, 153);
+    text-align: left;
+}
+
+/* 오른쪽 컨텐츠 헤더 텍스트 */
+.right-header-text {
+    margin: -3px 0 -4px 0;
+    font-size: 14px;
+    color: #999999;
+    
+}
+
+
+/* 오른쪽 회원님을 위한 추천 */
+.right-suggest {
+    width: 293px;
+    height: 197px;
+    margin: 12px 0;
+    background: #ffffff;
+}
+
+.right-suggest-container {
+    width: 287px;
+    height: 160px;
+    margin: 0 0 4px 4px;
+    padding: 8px 0 8px 0;
+}
+
+.right-suggest-item {
+    width: 287px;
+    height: 48px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-text-group {
+    display: flex;
+}
+
+.right-suggest-follow-btn-wrap {
+    display:flex;
+    align-items: center;
+}
+
+.right-suggest-follow-btn {
+    font-size: 12px;
+    font-weight: 600;
+    display:inline;
+    border: none;
+    padding: 0;
+    color: #3897F0;
+}
+
+/* 우측 하단 정보 버튼 */
+.right-info {
+    width: 293px;
+    height: 106px;
+    padding: 0 0 38px;
+}
+
+.right-info-nav {
+    height:36px;
+    margin-bottom: 16px;
+    padding: 0;
+    display: flex;
+}
+
+.right-info-ul {
+    padding: 0;
+    margin: 0 16px 3px 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    height: 36px;
+}
+
+.right-info-li {
+    font-weight: 400;
+    height: 13px;
+}
+
+.right-info-li > a{
+    font-size: 11px;
+    color: #C7C7C7;
+}
+
+.right-info-li > a::after{
+    content: "\00B7";
+    margin: 0 .25em;
+}
+
+/* .right-info-li > a:last-child::after {
+    content: "";
+} */
+
+.right-info > span {
+    font-size: 11px;
+    color: #C7C7C7;
+    font-weight: 400;
+}

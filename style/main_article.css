@@ -1,0 +1,133 @@
+.article-head {
+    padding: 16px 8px 16px 16px;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.article-account {
+    padding-left: 16px;
+}
+
+.article-account > :nth-child(2) {
+    font-size: 12px;
+    color: #262626;
+}
+
+.article-img {
+    width: 614px;
+    height: 614px;
+}
+
+.article-buttons {
+    width: 614px;
+    height: 40px;
+    padding: 0px 16px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-left-buttons {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    padding-left: 16px;
+    
+}
+
+.article-head-btn {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+}
+
+.article-right-buttons {
+
+}
+
+.article-likes {
+    width: 612px;
+    height: 20px;
+    margin-bottom: 8px;
+    padding: 0 16px;
+    display:flex;
+    font-size: 14px;
+}
+
+.article-likes-profile {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.article-content {
+    width: 612px;
+    padding: 0 16px;
+    margin-bottom: 4px;
+    display: flex;
+    font-size: 14px;
+}
+
+.article-content-ago {
+    padding-left: 16px;
+    margin-bottom: 4px;
+}
+
+.article-more-content {
+    font: 14px;
+    color: #999999;
+}
+
+.article-ago {
+    
+}
+
+.article-comment {
+    width: 612px;
+    height: 56px;
+    margin-top: 4px;
+    padding: 0 16px;
+    display:flex;
+    align-items: center;
+    border-top: 1px solid #e6e6e6;
+    background: #FFFFFF;
+}
+
+
+.article-comment-area {
+    width: 555.766px;
+    height: 18px;
+    resize: none;
+    border: none;
+    font-size: 14px;
+}
+
+.article-comment-btn {
+    color: rgb(56, 151, 240);
+    font-size: 14px;
+}
+
+.article-button-wrap {
+    width: 40px;
+    height: 40px;
+}
+
+
+.article-bottom-wrapper {
+    width: 614px;
+    height: 175px;
+    background: #ffffff;
+}
+
+.article-recent-comment {
+    display:flex;
+    flex-direction: column;
+}
+
+/* .comment-item {
+    display: block;
+} */

@@ -1,0 +1,58 @@
+/* 로그인 전체 박스  */
+.login-box {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+/* 이미지 로고 */
+.img-logo {
+    margin-top: 30px;
+}
+
+/* 입력폼 그룹 */
+.input-group {
+    margin-top: 25px;
+}
+
+/* 입력폼 */
+.text-input {
+    background-color: #fafafa;
+    margin-top: 5px;
+    width: 268px;
+    height: 38px;
+    padding: 9px 0px 7px 8px;
+    font-size: 12px;
+}
+
+.password-text-input {
+    background-color: #fafafa;
+    margin-top: 5px;
+    width: 268px;
+    height: 38px;
+    padding: 9px 0px 7px 8px;
+    font-size: 12px;
+}
+
+/* 로그인 버튼 */
+.btn-login {
+    background-color: #abd1f5;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 267px;
+    height: 30px;
+    border: 0px;
+    font-size: 14px;
+}
+
+/* 비밀번호 찾기 */
+.findPassword {
+    margin-top: 100px;
+    color: #3897f0;
+    font-size: 14px;
+}
