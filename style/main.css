@@ -111,12 +111,12 @@ main {
     width: 616px;
     height: inherit;
     margin-right: 28px;
+    margin-top: 60px;
 }
 
 article {
     width: 616px;
-    height: 851px;
-    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .main-right {

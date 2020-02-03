@@ -119,7 +119,6 @@
 
 .article-bottom-wrapper {
     width: 614px;
-    height: 175px;
     background: #ffffff;
 }
 
@@ -131,3 +130,7 @@
 /* .comment-item {
     display: block;
 } */
+
+.article-remove-button {
+    
+}
